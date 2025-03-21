@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars on the whole page */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #282c34;
@@ -52,7 +59,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: rgb(40, 37, 53);
-  padding-top: 60px; /* Add padding to avoid content overlap with fixed header */
+  padding-top: 0px; /* Add padding to avoid content overlap with fixed header */
 }
 
 main {
