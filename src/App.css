@@ -30,7 +30,7 @@ body {
 
 .fancy-logo {
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
+  font-size: 1.7rem;
   font-weight: 600;
   text-transform: uppercase;
   color: #7289da;
@@ -144,6 +144,10 @@ button:disabled {
   color: white;
   background-color: #6649b8;
   cursor: pointer;
+}
+
+.sign-out {
+  font-size: 15px;
 }
 
 .under-text {
